@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  streamlit-webapp:
+    container_name: streamlit-webapp-container
+    image: streamlit-webapp:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - .:/folio
+
+
+
+

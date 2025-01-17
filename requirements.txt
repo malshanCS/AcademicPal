@@ -1,0 +1,14 @@
+streamlit
+streamlit-option-menu
+requests
+groq
+langchain
+langchain_community
+urllib3
+python-dotenv
+PyMuPDF
+faiss-cpu
+google-cloud-storage
+langchain_openai
+langchain_groq
+sentence-transformers

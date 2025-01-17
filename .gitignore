@@ -1,0 +1,22 @@
+# Environment files
+.env
+
+# Private keys
+*.pem
+
+# Google Cloud credentials
+*.json
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Docker artifacts
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
